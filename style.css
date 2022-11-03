@@ -1,0 +1,39 @@
+.nav{
+    /* height: 20px;
+    border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.countries{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    
+    /* height: 330px;
+    width: 400px; */
+}
+.container{
+    border:  2px solid red;
+
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+     */
+
+}
+.division{
+    border: 2px solid black;
+    height: 60vh;
+    width: 50vh;
+    border-radius: 10%;
+    text-align: center ;
+
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+}
